@@ -1,0 +1,5 @@
+pandas
+matplotlib
+streamlit
+langchain-groq
+langchain-experimental
