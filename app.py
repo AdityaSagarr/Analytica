@@ -3,8 +3,8 @@ import json
 import streamlit as st
 from langchain_groq import ChatGroq
 from langchain_experimental.agents import create_pandas_dataframe_agent
-from components.chat import chat_display
-from components.plotter import generalized_plotter
+from chat import chat_display
+from plotter import generalized_plotter
 
 # Initialize the ChatGroq model (LLM)
 llm = ChatGroq(
